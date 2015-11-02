@@ -117,7 +117,7 @@ latexpdf:
         #
 	@echo "Running LaTeX files through pdflatex..."
 	$(MAKE) -C $(PDFBUILDDIR)/latex all-pdf
-        cp $(PDFBUILDER)/latex/*.pdf $(PDF)
+	cp $(PDFBUILDER)/latex/*.pdf $(PDF)
 	@echo "pdflatex finished; see $(PDF)"
 
 latexpdfja:
